@@ -15,21 +15,27 @@
 }
 
 .tudoq{
-  background-color: #d8ba95;
+  background-color: #076aeb;
   height: 10vh;
   border-radius: 1rem;
   justify-content: center;
+    display: flex;
+  justify-content: center;
+ align-items: center;
+ text-align: center;
   
 
 }
 ul{
   display: flex;
   justify-content: center;
+ align-items: center;
+ text-align: center;
 }
 a{
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 a:hover{
-  color: brown;
+  color: #fff;
 }

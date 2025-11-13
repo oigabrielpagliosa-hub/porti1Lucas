@@ -2,6 +2,9 @@
 // Este é um exemplo de componente chamado Botao
 // Nele temos os parâmetros:
 // texto: Recebe o texto que será exibido dentro do botão
+
+import TextoDestacado from "./TextoDestacado";
+
 // funcaoClick: Recebe a função que será executada quando o botão for clicado
 export default function Botao({ texto, funcaoClick }) {
     
@@ -11,7 +14,7 @@ export default function Botao({ texto, funcaoClick }) {
     return (
         <button onClick={funcaoClick}>
             {/* Exibe o texto recebido como parâmetro */}
-            {texto}
+            <TextoDestacado texto={texto}></TextoDestacado>
         </button>
     );
 }

@@ -9,8 +9,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  color: black;
+body{
+  background-color: rgb(36, 141, 202);
 }

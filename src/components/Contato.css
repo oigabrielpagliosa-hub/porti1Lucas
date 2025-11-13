@@ -1,0 +1,13 @@
+.fot{
+    width: 200px;
+    height: 200px;
+        border: solid 3px #fff;
+    
+
+}
+
+.foto:hover{
+    transform: scale(1,1);
+    box-shadow: 0 4px 15px  rgba(31, 111, 235, 0,6);
+    border-color: brown;
+}

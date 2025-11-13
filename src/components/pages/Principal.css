@@ -1,3 +1,25 @@
 section {
     height: 100vh;
+    color: #fff;
+}
+.foto-config{
+    display: flex;
+}
+
+.foto{
+    width: 10rem;
+    height: 10rem;
+    border: solid 3px #fff;
+    
+
+}
+
+.foto:hover{
+    transform: scale(1,1);
+    box-shadow: 0 4px 15px  rgba(31, 111, 235, 0,6);
+    border-color: brown;
+}
+.se{
+    display: flex;
+    justify-content: space-around;
 }
